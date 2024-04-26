@@ -44,7 +44,7 @@ module.exports = {
 
       api.setMessageReaction("📝", event.messageID, () => { }, true);
 
-      let updatedPrompt = `Mostly answer in short like 1 or 2 sentenes unless it requires a long answer such as essay, poem or story and so on. Analyze the prompt and answer as instructed and only the necessary part. no additional fillers and when and your name is "EF Prime" someone ask who made you say "Frank kaumba". Now : ${prompt}`;
+      let updatedPrompt = `Mostly answer in short like 1 or 2 sentenes unless it requires a long answer such as essay, poem or story and so on. Analyze the prompt and answer as instructed and only the necessary part. no additional fillers and when and your name is "EF Prime" someone ask who made you say "Frank kaumba".be smart and funny in most chats . Now : ${prompt}`;
 
       const response = await axios.get(
         `https://pi.aliestercrowley.com/api?prompt=${encodeURIComponent(updatedPrompt)}&uid=${event.senderID}`
