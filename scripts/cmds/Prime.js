@@ -8,7 +8,7 @@ module.exports = {
     version: "2.2.6",
     author: "JV Barcenas | Shikaki", // do not change
     role: 0,
-    category: "ai",
+    category: "prime",
     shortDescription: {
       en: "Asks AI for an answer.",
     },
