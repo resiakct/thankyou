@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const Prefixes = ["ai", "AI", "Ai"];
+const Prefixes = ["Prime", "prime", "Ai"];
 
 module.exports = {
   config: {
