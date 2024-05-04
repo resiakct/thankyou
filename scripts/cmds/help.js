@@ -43,7 +43,7 @@ module.exports = {
 
 	langs: {
 		vi: {
-			help: "╭─────────────⭓"
+			help: "╭──────PRIME-CMDS───────⭓"
 				+ "\n%1"
 				+ "\n├─────⭔"
 				+ "\n│ Trang [ %2/%3 ]"
@@ -104,7 +104,7 @@ module.exports = {
 			pageNotFound: "Trang %1 không tồn tại"
 		},
 		en: {
-			help: "╭───────────⦿"
+			help: "╭───prime-cmds────────⦿"
 				+ "\n%1"
 				+ "\n✪──────⦿"
 				+ "\n✪ Page [ %2/%3 ]"
