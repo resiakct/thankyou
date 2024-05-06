@@ -26,7 +26,7 @@ module.exports = {
 				if (!prompt) return sendMessage('Missing prompt!');
 
 				try {
-						const response = await get(`https://ai-tools.replit.app/render?prompt=${encodeURIComponent(prompt)}`, {
+						const response = await get(`https://markdevs-last-api.onrender.com/render?prompt=${encodeURIComponent(prompt)}`, {
 								responseType: 'arraybuffer'
 						});
 						const imageData = response.data;
