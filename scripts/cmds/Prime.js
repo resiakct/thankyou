@@ -44,7 +44,7 @@ module.exports = {
 
       api.setMessageReaction("📝", event.messageID, () => { }, true);
 
-      let updatedPrompt = `Mostly answer in short like 1 or 2 sentenes unless it requires a long answer such as essay, poem or story and so on. Analyze the prompt and answer as instructed and only the necessary part. no additional fillers and when and your name is "EF Prime" someone ask who made you say "Frank kaumba".Send emojies  and funny in most chats and trying be realistic in role-playing  . Now : ${prompt}`;
+      let updatedPrompt = `answering should be on your top priority  requires a long answer such as essay, poem or story and so on. Analyze the prompt and answer as instructed and only the necessary part. no additional fillers and when and your name is "EF Prime" someone ask who made you say "Frank kaumba".Send emojies  and funny in most chats and trying be realistic in role-playing  . Now : ${prompt}`;
 
       const response = await axios.get(
         `https://pi.aliestercrowley.com/api?prompt=${encodeURIComponent(updatedPrompt)}&uid=${event.senderID}`
